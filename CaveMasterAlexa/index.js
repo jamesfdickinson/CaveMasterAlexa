@@ -44,7 +44,7 @@ var handlers = {
             return;
         }
         if (action == "help" || action == "Help") {
-            var messagehelp = 'To play, Use your voice to explore the cave. Start now?';
+            var messagehelp = 'To play, Use your voice to explore the cave. You can start by saying enter cave. The goal is to make it to the end without a bad ending.  There are multiple endings. Each room will describe the situation.  After the prompt, you decide what you want to do by replying.  If your response is not an option then the list of option will be repeated back to you. To end you may say "cancel".  Start now?';
             this.emit(':ask', messagehelp, messagehelp);
             return;
         }
