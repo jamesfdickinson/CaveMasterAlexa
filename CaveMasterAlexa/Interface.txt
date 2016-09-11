@@ -1,0 +1,167 @@
+﻿{
+  "intents": [
+    {
+      "intent": "ActionIntent",
+      "slots": [
+        {
+          "name": "ACTION",
+          "type": "LITERAL"
+        }
+      ]
+    }
+    
+  ]
+}
+
+
+
+
+ActionIntent	{go to spider|ACTION}
+ActionIntent	{enter cave|ACTION}
+ActionIntent	{vegan|ACTION}
+ActionIntent	{search|ACTION}
+ActionIntent	{art|ACTION}
+ActionIntent	{Enter|ACTION}
+ActionIntent	{cave|ACTION}
+ActionIntent	{enter|ACTION}
+ActionIntent	{start|ACTION}
+ActionIntent	{begin|ACTION}
+ActionIntent	{go|ACTION}
+ActionIntent	{master|ACTION}
+ActionIntent	{play|ACTION}
+ActionIntent	{again|ACTION}
+ActionIntent	{Intercape|ACTION}
+ActionIntent	{Winter|ACTION}
+ActionIntent	{yea|ACTION}
+ActionIntent	{sure|ACTION}
+ActionIntent	{ok|ACTION}
+ActionIntent	{yes|ACTION}
+ActionIntent	{end|ACTION}
+ActionIntent	{right|ACTION}
+ActionIntent	{spider|ACTION}
+ActionIntent	{big|ACTION}
+ActionIntent	{nasty|ACTION}
+ActionIntent	{ugly|ACTION}
+ActionIntent	{go to the spider|ACTION}
+ActionIntent	{punch|ACTION}
+ActionIntent	{fight|ACTION}
+ActionIntent	{Tech|ACTION}
+ActionIntent	{run|ACTION}
+ActionIntent	{avoid|ACTION}
+ActionIntent	{past|ACTION}
+ActionIntent	{gangster|ACTION}
+ActionIntent	{gangsta|ACTION}
+ActionIntent	{left|ACTION}
+ActionIntent	{gang|ACTION}
+ActionIntent	{les|ACTION}
+ActionIntent	{las|ACTION}
+ActionIntent	{Hunter|ACTION}
+ActionIntent	{king|ACTION}
+ActionIntent	{Winter|ACTION}
+ActionIntent	{Kate|ACTION}
+ActionIntent	{trust|ACTION}
+ActionIntent	{run|ACTION}
+ActionIntent	{five|ACTION}
+ActionIntent	{flee|ACTION}
+ActionIntent	{attack|ACTION}
+ActionIntent	{fight|ACTION}
+ActionIntent	{gun|ACTION}
+ActionIntent	{punch|ACTION}
+ActionIntent	{Tech|ACTION}
+ActionIntent	{text|ACTION}
+ActionIntent	{time|ACTION}
+ActionIntent	{no|ACTION}
+ActionIntent	{walk|ACTION}
+ActionIntent	{past|ACTION}
+ActionIntent	{move|ACTION}
+ActionIntent	{skip|ACTION}
+ActionIntent	{warcraft|ACTION}
+ActionIntent	{rock|ACTION}
+ActionIntent	{fridge|ACTION}
+ActionIntent	{food|ACTION}
+ActionIntent	{eat|ACTION}
+ActionIntent	{French|ACTION}
+ActionIntent	{free|ACTION}
+ActionIntent	{open|ACTION}
+ActionIntent	{bed|ACTION}
+ActionIntent	{dead|ACTION}
+ActionIntent	{sleep|ACTION}
+ActionIntent	{nap|ACTION}
+ActionIntent	{rest|ACTION}
+ActionIntent	{snooze|ACTION}
+ActionIntent	{dismiss|ACTION}
+ActionIntent	{map|ACTION}
+ActionIntent	{pizza|ACTION}
+ActionIntent	{Pizza|ACTION}
+ActionIntent	{potato|ACTION}
+ActionIntent	{salad|ACTION}
+ActionIntent	{swim|ACTION}
+ActionIntent	{lake|ACTION}
+ActionIntent	{fast|ACTION}
+ActionIntent	{quick|ACTION}
+ActionIntent	{hurry|ACTION}
+ActionIntent	{rush|ACTION}
+ActionIntent	{faster|ACTION}
+ActionIntent	{slow|ACTION}
+ActionIntent	{slower|ACTION}
+ActionIntent	{down|ACTION}
+ActionIntent	{back|ACTION}
+ActionIntent	{flip|ACTION}
+ActionIntent	{backflip|ACTION}
+ActionIntent	{run|ACTION}
+ActionIntent	{book|ACTION}
+ActionIntent	{race|ACTION}
+ActionIntent	{fun|ACTION}
+ActionIntent	{left|ACTION}
+ActionIntent	{path|ACTION}
+ActionIntent	{walk|ACTION}
+ActionIntent	{run|ACTION}
+ActionIntent	{wake|ACTION}
+ActionIntent	{up|ACTION}
+ActionIntent	{dismiss|ACTION}
+ActionIntent	{inn|ACTION}
+ActionIntent	{in|ACTION}
+ActionIntent	{unlock|ACTION}
+ActionIntent	{door|ACTION}
+ActionIntent	{end|ACTION}
+ActionIntent	{enter|ACTION}
+ActionIntent	{inn|ACTION}
+ActionIntent	{in|ACTION}
+ActionIntent	{unlock|ACTION}
+ActionIntent	{door|ACTION}
+ActionIntent	{key|ACTION}
+ActionIntent	{end|ACTION}
+ActionIntent	{walk|ACTION}
+ActionIntent	{out|ACTION}
+ActionIntent	{post|ACTION}
+ActionIntent	{pirates|ACTION}
+ActionIntent	{no|ACTION}
+ActionIntent	{pass|ACTION}
+ActionIntent	{past|ACTION}
+ActionIntent	{rock|ACTION}
+ActionIntent	{bar|ACTION}
+ActionIntent	{inn|ACTION}
+ActionIntent	{in|ACTION}
+ActionIntent	{end|ACTION}
+ActionIntent	{walk|ACTION}
+ActionIntent	{past|ACTION}
+ActionIntent	{out|ACTION}
+ActionIntent	{post|ACTION}
+ActionIntent	{cat|ACTION}
+ActionIntent	{cats|ACTION}
+ActionIntent	{kitten|ACTION}
+ActionIntent	{pool|ACTION}
+ActionIntent	{live|ACTION}
+ActionIntent	{resurrect|ACTION}
+ActionIntent	{resurrected|ACTION}
+ActionIntent	{fall|ACTION}
+ActionIntent	{die|ACTION}
+ActionIntent	{dead|ACTION}
+ActionIntent	{dog|ACTION}
+ActionIntent	{dogs|ACTION}
+ActionIntent	{puppy|ACTION}
+ActionIntent	{pound|ACTION}
+ActionIntent	{hawaii|ACTION}
+ActionIntent	{Hawaii|ACTION}
+ActionIntent	{bahamas|ACTION}
+ActionIntent	{Bahamas|ACTION}
