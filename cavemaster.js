@@ -1,4 +1,3 @@
-/// <reference path="js/SpeedCore.js" />
 function CaveMaster(currentRoom) {
     //public
     this.rooms = [];
