@@ -128,7 +128,7 @@ function CaveMaster(currentRoom) {
             "spiderPunch",
             "you decide to punch the spider in the gut. success the spider has been knocked out and you walk on to the next part of the cave good choice",
             "snd/Spider - Punch.mp3",
-            "img/Spider.png",
+            "img/SpiderKO.png",
             ["punch", "fight", "Tech"],
             AUTOMOVE
         );
@@ -138,7 +138,7 @@ function CaveMaster(currentRoom) {
             "spiderRun",
             "you to decide to run past the spider, the spider notices you he jumps you and all his friends come out and bite you with venom you die the end",
             "snd/Spider - Kills You.mp3",
-            "img/Spider.png",
+            "img/Spiders.png",
             ["run", "avoid", "past"],
             AUTOMOVE
         );
@@ -170,7 +170,7 @@ function CaveMaster(currentRoom) {
             "gangsterAttack",
             "you tromp and attack the gansta he comes back he smacks you in the head and you beat him down you win but then the gansta calls all his friends hes cheating he takes out his pistal and booom you dead bad choice",
             "snd/Gankster - Jacks You.mp3",
-            "img/gankster.png",
+            "img/ganksters.png",
             ["attack", "fight", "gun", "punch", "Tech", "text"],
             AUTOMOVE
         );
@@ -181,7 +181,7 @@ function CaveMaster(currentRoom) {
             "timeMachine",
             "turn on the time machine or walk past it?",
             "snd/Time Machince - H - Turn On Or Walk Past.mp3",
-            "img/gankster.png",
+            "img/timeMachine.png",
             ["time"]
             //AUTOMOVE
         );
@@ -191,7 +191,7 @@ function CaveMaster(currentRoom) {
             "bedroom",
             "frigde or bed",
             "snd/Firdge Or Bed - H -.mp3",
-            "img/cave.png",
+            "img/bedroom.png",
             ["no", "walk", "past", "move", "skip", "warcraft", "rock"]
             //AUTOMOVE
         );
@@ -221,7 +221,7 @@ function CaveMaster(currentRoom) {
             "pizza",
             "pizza",
             "snd/Fridge - 01 - Pizza.mp3",
-            "img/fridge.png",
+            "img/pizza.png",
             ["pizza", "Pizza"],
             AUTOMOVE
         );
@@ -231,7 +231,7 @@ function CaveMaster(currentRoom) {
             "potato",
             "potato salad",
             "snd/Fridge - H - Potato Salad.mp3",
-            "img/fridge.png",
+            "img/potatoSalad.png",
             ["potato", "salad"],
             AUTOMOVE
         );
@@ -241,7 +241,7 @@ function CaveMaster(currentRoom) {
             "tv",
             "tv turn on or smash",
             "snd/TV - E - Turn On Or Smash.mp3",
-            "img/fridge.png",
+            "img/TV.png",
             []
         );
         rooms.push(tv);
@@ -250,7 +250,7 @@ function CaveMaster(currentRoom) {
             "smash",
             "smash on head",
             "snd/Tv - 01 - Smash on Head.mp3",
-            "img/fridge.png",
+            "img/smashedTV.png",
             [],
             AUTOMOVE
         );
@@ -259,9 +259,10 @@ function CaveMaster(currentRoom) {
         var powerRangers = new Room(
             "powerRangers",
             "power Rangers",
+			//to do
             //play power rangers video
             "snd/Tv - 01 - Smash on Head.mp3",
-            "img/fridge.png",
+            "img/TV.png"",
             ["on", "watch", "play", "power", "rangers"],
             AUTOMOVE
         );
@@ -272,7 +273,7 @@ function CaveMaster(currentRoom) {
             "lake or path",
 
             "snd/Lake or Path - H.mp3",
-            "img/fridge.png",
+            "img/lakepath.png",
             []
             //AUTOMOVE
         );
@@ -282,7 +283,7 @@ function CaveMaster(currentRoom) {
             "lake",
             "fast or slow",
             "snd/Swim Speed - H.mp3",
-            "img/fridge.png",
+            "img/swim.png",
             ["swim", "lake"]
             //AUTOMOVE
         );
@@ -292,7 +293,7 @@ function CaveMaster(currentRoom) {
             "lakefast",
             "fast",
             "snd/Swim Speed- 02 - Fast.mp3",
-            "img/fridge.png",
+            "img/fish.png",
             ["fast", "quick", "hurry", "rush", "faster"],
             AUTOMOVE
         );
@@ -302,7 +303,7 @@ function CaveMaster(currentRoom) {
             "lakeslow",
             "slow",
             "snd/Path - H - Slow Swim And Run Or Flip.mp3",
-            "img/fridge.png",
+            "img/swim.png",
             ["slow", "slower", "down"]
             // AUTOMOVE
         );
@@ -312,7 +313,7 @@ function CaveMaster(currentRoom) {
             "backflip",
             "backflip",
             "snd/Path - 01 - Backflip.mp3",
-            "img/fridge.png",
+            "img/backflip.png",
             ["back", "flip", "backflip"],
             AUTOMOVE
         );
@@ -322,7 +323,7 @@ function CaveMaster(currentRoom) {
             "keeprunning",
             "keeprunning",
             "snd/Path - 02 - chasm.mp3",
-            "img/fridge.png",
+            "img/fall.png",
             ["run", "book", "race", "fun"],
             AUTOMOVE
         );
@@ -332,7 +333,7 @@ function CaveMaster(currentRoom) {
             "path",
             "path",
             "snd/Lake or Path - 02 - You Die.mp3",
-            "img/fridge.png",
+            "img/fall.png",
             ["left", "path", "walk", "run"],
             AUTOMOVE
         );
@@ -343,7 +344,7 @@ function CaveMaster(currentRoom) {
             "inorbar",
             "in or bar",
             "snd/INN or Bar - H.mp3",
-            "img/fridge.png",
+            "img/inn.png",
             ["wake", "up", "dismiss"]
             // AUTOMOVE
         );
@@ -353,7 +354,7 @@ function CaveMaster(currentRoom) {
             "inn1",
             "inn1",
             "snd/Inn - H - key or walk on.mp3",
-            "img/fridge.png",
+            "img/key.png",
             ["inn", "in", "unlock", "door", "end"]
             // AUTOMOVE
         );
@@ -364,7 +365,7 @@ function CaveMaster(currentRoom) {
             "enterinn",
             "enterinn",
             "snd/Inn - 02 - tigar death.mp3",
-            "img/fridge.png",
+            "img/tiger.png",
             ["enter", "inn", "in", "unlock", "door", "key", "end"],
             AUTOMOVE
         );
@@ -374,7 +375,7 @@ function CaveMaster(currentRoom) {
             "leaveinn",
             "pirates",
             "snd/Inn - 01 - leave key pirates live.mp3",
-            "img/fridge.png",
+            "img/pirate.png",
             ["walk", "out", "post", "pirates", "no", "pass", "past", "rock"],
             AUTOMOVE
         );
@@ -384,7 +385,7 @@ function CaveMaster(currentRoom) {
             "bar",
             "bar",
             "snd/Bar - H - INN or Walk Past outpost.mp3",
-            "img/fridge.png",
+            "img/bar.png",
             ["bar"],
             AUTOMOVE
         );
@@ -395,7 +396,7 @@ function CaveMaster(currentRoom) {
             "bartoinn",
             "bartoinn",
             "snd/Bar - 01 - inn live.mp3",
-            "img/fridge.png",
+            "img/inn.png",
             ["inn", "in", "end"],
             AUTOMOVE
         );
@@ -405,7 +406,7 @@ function CaveMaster(currentRoom) {
             "bartoout",
             "bartoout",
             "snd/Bar - 02 - walk out dead.mp3",
-            "img/fridge.png",
+            "img/pirate.png",
             ["walk", "past", "out", "post"],
             AUTOMOVE
         );
@@ -415,7 +416,7 @@ function CaveMaster(currentRoom) {
             "catsOrDogs",
             "cats or dogs?",
             "snd/cats and dogs - H.mp3",
-            "img/fridge.png",
+            "img/catDo.png",
             []
         );
         rooms.push(catsOrDogs);
@@ -424,7 +425,7 @@ function CaveMaster(currentRoom) {
             "cats",
             "cats",
             "snd/cats - H - resurrected or fall.mp3",
-            "img/fridge.png",
+            "img/cats.png",
             ["cat", "cats", "kitten", "pool"]
         );
         rooms.push(cats);
@@ -433,7 +434,7 @@ function CaveMaster(currentRoom) {
             "cats",
             "cats",
             "snd/cats - 01 - resurrected live.mp3",
-            "img/fridge.png",
+            "img/cats.png",
             ["live", "resurrect", "resurrected"],
             AUTOMOVE
         );
@@ -443,7 +444,7 @@ function CaveMaster(currentRoom) {
             "catsDie",
             "catsDie",
             "snd/cats - 02 - fall dead.mp3",
-            "img/fridge.png",
+            "img/cats.png",
             ["fall", "die", "dead"],
             AUTOMOVE
         );
@@ -453,7 +454,7 @@ function CaveMaster(currentRoom) {
             "dogs",
             "hawaii or bahamas",
             "snd/Dogs - H - hawii or bahamas.mp3",
-            "img/fridge.png",
+            "img/dog.png",
             ["dog", "dogs", "puppy", "pound"]
         );
         rooms.push(dogs);
@@ -462,7 +463,7 @@ function CaveMaster(currentRoom) {
             "hawaii",
             "hawaii",
             "snd/Dogs - 01 - hiwaii dead.mp3",
-            "img/fridge.png",
+            "img/island.png",
             ["hawaii", "Hawaii"],
             AUTOMOVE
         );
@@ -472,7 +473,7 @@ function CaveMaster(currentRoom) {
             "bahamas",
             "bahamas",
             "snd/Dogs - 02 - bahamas live.mp3",
-            "img/fridge.png",
+            "img/island.png",
             ["bahamas", "Bahamas"],
             AUTOMOVE
         );
