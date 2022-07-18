@@ -8,6 +8,10 @@
     "email": ""
   },
   "dependencies": {
-    "alexa-sdk": "^1.0.5"
+    "ask-sdk": "^2.12.1",
+    "ask-sdk-v1adapter": "^2.12.1"
+  },
+  "devDependencies": {
+    "ask-sdk-local-debug": "^1.1.0"
   }
 }
