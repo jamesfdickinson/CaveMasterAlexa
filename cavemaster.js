@@ -99,7 +99,7 @@ function CaveMaster(currentRoom) {
         //define rooms
         var enterCave = new Room(
             "EnterCave",
-            "You enter cave and you see stuff on your left and its a gangster and hes all like looking very scary like and on your right you see a big nasty ugly spider which way should you go?",
+            "Spider or gangster?",
             "snd/Enter Cave - Spider Or Gankster.mp3",
             "img/enternce.png",
             ["vegan", "search", "art", "Enter", "cave", "enter", "start", "begin", "go", "master", "play", "again", "Intercape", "Winter", "yea", "sure", "ok", "yes", "enter cave"]
@@ -117,8 +117,8 @@ function CaveMaster(currentRoom) {
 
         var spiderStart = new Room(
             "spiderStart",
-            "ohh You choose to go to the spider probly not a very good idea he got venom, so what would you like to do punch the spider in the gut or run past the spider? make your choice",
-            "snd/Enter Cave - Spider.mp3",
+            "Fight or run?",
+           "snd/Enter Cave - Spider.mp3",
             "img/Spider.png",
             ["right", "spider", "big", "nasty", "ugly", "go to the spider"]
         );
@@ -126,7 +126,7 @@ function CaveMaster(currentRoom) {
 
         var spiderPunch = new Room(
             "spiderPunch",
-            "you decide to punch the spider in the gut. success the spider has been knocked out and you walk on to the next part of the cave good choice",
+            "The spider has been knocked out",
             "snd/Spider - Punch.mp3",
             "img/SpiderKO.png",
             ["punch", "fight", "Tech"],
@@ -136,7 +136,7 @@ function CaveMaster(currentRoom) {
 
         var spiderRun = new Room(
             "spiderRun",
-            "you to decide to run past the spider, the spider notices you he jumps you and all his friends come out and bite you with venom you die the end",
+            "Spider bites!",
             "snd/Spider - Kills You.mp3",
             "img/Spiders.png",
             ["run", "avoid", "past"],
@@ -146,9 +146,9 @@ function CaveMaster(currentRoom) {
 
         var gangsterStart = new Room(
             "gangsterStart",
-            "so you decide to go see the gangsta the gangstas like sup and gives you a high five, what should you do trust the ganster and keep on walking or should you attack him",
+            "trust or attack?",
             "snd/Enter Cave - Gankster.mp3",
-            "img/gankster.png",
+            "img/Gankster.png",
             ["gangster", "gangsta", "left", "gang", "les", "las"]
 
         );
@@ -156,9 +156,9 @@ function CaveMaster(currentRoom) {
 
         var gangsterTrust = new Room(
             "gangsterTrust",
-            "you decide to trust the gansta probly not a good idea but you just walking all chill you look back hes giving you the eye of a demom but he does nothing good choice",
+            "He does nothing, good choice",
             "snd/Gankster - Trust Gankster.mp3",
-            "img/gankster.png",
+            "img/catDog.png",
             ["trust", "run", "five", "flee"],
             AUTOMOVE
         );
@@ -168,9 +168,9 @@ function CaveMaster(currentRoom) {
 
         var gangsterAttack = new Room(
             "gangsterAttack",
-            "you tromp and attack the gansta he comes back he smacks you in the head and you beat him down you win but then the gansta calls all his friends hes cheating he takes out his pistal and booom you dead bad choice",
+            "booom you dead",
             "snd/Gankster - Jacks You.mp3",
-            "img/ganksters.png",
+            "img/Ganksters.png",
             ["attack", "fight", "gun", "punch", "Tech", "text"],
             AUTOMOVE
         );
@@ -189,7 +189,7 @@ function CaveMaster(currentRoom) {
 
         var bedroom = new Room(
             "bedroom",
-            "frigde or bed",
+            "frigde or bed?",
             "snd/Firdge Or Bed - H -.mp3",
             "img/bedroom.png",
             ["no", "walk", "past", "move", "skip", "warcraft", "rock"]
@@ -199,7 +199,7 @@ function CaveMaster(currentRoom) {
 
         var fridge = new Room(
             "fridge",
-            "what would you like to eat, pizza or potatoe salad",
+            "pizza or potatoe salad?",
             "snd/Fridge - H - Pizza or Photato Salad.mp3",
             "img/fridge.png",
             ["fridge", "food", "eat", "French", "free", "open", "open fridge", "open the fridge"]
@@ -239,7 +239,7 @@ function CaveMaster(currentRoom) {
 
         var tv = new Room(
             "tv",
-            "tv turn on or smash",
+            "turn on TV or smash TV",
             "snd/TV - E - Turn On Or Smash.mp3",
             "img/TV.png",
             []
@@ -248,21 +248,21 @@ function CaveMaster(currentRoom) {
 
         var smash = new Room(
             "smash",
-            "smash on head",
+            "Smashed the TV on you head!",
             "snd/Tv - 01 - Smash on Head.mp3",
             "img/smashedTV.png",
-            [],
+            ["smash"],
             AUTOMOVE
         );
         rooms.push(smash);
 
         var powerRangers = new Room(
-            "powerRangers",
-            "power Rangers",
-			//to do
+            "TV",
+            "You turned on the TV",
             //play power rangers video
-            "snd/Tv - 01 - Smash on Head.mp3",
-            "img/TV.png",
+            //audio not working for this one
+            "snd/TVonClap.mp3",
+            "img/TVon.png",
             ["on", "watch", "play", "power", "rangers"],
             AUTOMOVE
         );
@@ -270,8 +270,7 @@ function CaveMaster(currentRoom) {
 
         var lakepath = new Room(
             "lakepath",
-            "lake or path",
-
+            "Lake or path?",
             "snd/Lake or Path - H.mp3",
             "img/lakepath.png",
             []
@@ -281,7 +280,7 @@ function CaveMaster(currentRoom) {
 
         var lake = new Room(
             "lake",
-            "fast or slow",
+            "Swim fast or slow?",
             "snd/Swim Speed - H.mp3",
             "img/swim.png",
             ["swim", "lake"]
@@ -291,7 +290,7 @@ function CaveMaster(currentRoom) {
 
         var lakefast = new Room(
             "lakefast",
-            "fast",
+            "Fish attacks!",
             "snd/Swim Speed- 02 - Fast.mp3",
             "img/fish.png",
             ["fast", "quick", "hurry", "rush", "faster"],
@@ -301,7 +300,7 @@ function CaveMaster(currentRoom) {
 
         var lakeslow = new Room(
             "lakeslow",
-            "slow",
+            "backflip or run",
             "snd/Path - H - Slow Swim And Run Or Flip.mp3",
             "img/swim.png",
             ["slow", "slower", "down"]
@@ -311,7 +310,7 @@ function CaveMaster(currentRoom) {
 
         var backflip = new Room(
             "backflip",
-            "backflip",
+            "You do a backflip!",
             "snd/Path - 01 - Backflip.mp3",
             "img/backflip.png",
             ["back", "flip", "backflip"],
@@ -321,7 +320,7 @@ function CaveMaster(currentRoom) {
 
         var keeprunning = new Room(
             "keeprunning",
-            "keeprunning",
+            "You tripped!",
             "snd/Path - 02 - chasm.mp3",
             "img/fall.png",
             ["run", "book", "race", "fun"],
@@ -331,7 +330,7 @@ function CaveMaster(currentRoom) {
 
         var path = new Room(
             "path",
-            "path",
+            "Oh no, you fell!",
             "snd/Lake or Path - 02 - You Die.mp3",
             "img/fall.png",
             ["left", "path", "walk", "run"],
@@ -342,7 +341,7 @@ function CaveMaster(currentRoom) {
         //in or bar
         var inorbar = new Room(
             "inorbar",
-            "in or bar",
+            "Enter the Inn or Bar?",
             "snd/INN or Bar - H.mp3",
             "img/inn.png",
             ["wake", "up", "dismiss"]
@@ -352,7 +351,7 @@ function CaveMaster(currentRoom) {
 
         var inn1 = new Room(
             "inn1",
-            "inn1",
+            "You enter the Inn",
             "snd/Inn - H - key or walk on.mp3",
             "img/key.png",
             ["inn", "in", "unlock", "door", "end"]
@@ -363,7 +362,7 @@ function CaveMaster(currentRoom) {
 
         var enterinn = new Room(
             "enterinn",
-            "enterinn",
+            "Aaaa a tiger!!!",
             "snd/Inn - 02 - tigar death.mp3",
             "img/tiger.png",
             ["enter", "inn", "in", "unlock", "door", "key", "end"],
@@ -383,7 +382,7 @@ function CaveMaster(currentRoom) {
 
         var bar = new Room(
             "bar",
-            "bar",
+            "inn or outpost",
             "snd/Bar - H - INN or Walk Past outpost.mp3",
             "img/bar.png",
             ["bar"],
@@ -394,7 +393,7 @@ function CaveMaster(currentRoom) {
 
         var bartoinn = new Room(
             "bartoinn",
-            "bartoinn",
+            "inn",
             "snd/Bar - 01 - inn live.mp3",
             "img/inn.png",
             ["inn", "in", "end"],
@@ -404,7 +403,7 @@ function CaveMaster(currentRoom) {
 
         var bartoout = new Room(
             "bartoout",
-            "bartoout",
+            "Pirates!",
             "snd/Bar - 02 - walk out dead.mp3",
             "img/pirate.png",
             ["walk", "past", "out", "post"],
@@ -416,7 +415,7 @@ function CaveMaster(currentRoom) {
             "catsOrDogs",
             "cats or dogs?",
             "snd/cats and dogs - H.mp3",
-            "img/catDo.png",
+            "img/catDog.png",
             []
         );
         rooms.push(catsOrDogs);
@@ -432,7 +431,7 @@ function CaveMaster(currentRoom) {
 
         var catsLive = new Room(
             "cats",
-            "cats",
+            "resurrected!",
             "snd/cats - 01 - resurrected live.mp3",
             "img/cats.png",
             ["live", "resurrect", "resurrected"],
@@ -442,7 +441,7 @@ function CaveMaster(currentRoom) {
 
         var catsDie = new Room(
             "catsDie",
-            "catsDie",
+            "Dead...",
             "snd/cats - 02 - fall dead.mp3",
             "img/cats.png",
             ["fall", "die", "dead"],
@@ -461,7 +460,7 @@ function CaveMaster(currentRoom) {
 
         var hawaii = new Room(
             "hawaii",
-            "hawaii",
+            "hawaii!!!",
             "snd/Dogs - 01 - hiwaii dead.mp3",
             "img/island.png",
             ["hawaii", "Hawaii"],
@@ -471,7 +470,7 @@ function CaveMaster(currentRoom) {
 
         var bahamas = new Room(
             "bahamas",
-            "bahamas",
+            "bahamas!!!",
             "snd/Dogs - 02 - bahamas live.mp3",
             "img/island.png",
             ["bahamas", "Bahamas"],
@@ -551,11 +550,3 @@ function Room(name, text, soundPath, imagePath, keywords, autoMove) {
     this.keywords = keywords;
     this.autoMove = autoMove;
 }
-
-
-
-
-
-
-
-
