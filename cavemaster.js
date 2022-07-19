@@ -118,7 +118,7 @@ function CaveMaster(currentRoom) {
         var spiderStart = new Room(
             "spiderStart",
             "Fight or run?",
-           "snd/Enter Cave - Spider.mp3",
+            "snd/Enter Cave - Spider.mp3",
             "img/Spider.png",
             ["right", "spider", "big", "nasty", "ugly", "go to the spider"]
         );
@@ -259,11 +259,9 @@ function CaveMaster(currentRoom) {
         var powerRangers = new Room(
             "TV",
             "You turned on the TV",
-            //play power rangers video
-            //audio not working for this one
-            "snd/TVonClap.mp3",
+            "snd/happy-tune2.mp3",
             "img/TVon.png",
-            ["on", "watch", "play", "power", "rangers"],
+            ["on", "watch", "play", "power", "rangers", "turn"],
             AUTOMOVE
         );
         rooms.push(smash);
