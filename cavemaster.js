@@ -262,7 +262,7 @@ function CaveMaster(currentRoom) {
 			//to do
             //play power rangers video
             "snd/Tv - 01 - Smash on Head.mp3",
-            "img/TV.png"",
+            "img/TV.png",
             ["on", "watch", "play", "power", "rangers"],
             AUTOMOVE
         );
